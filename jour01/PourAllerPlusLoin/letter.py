@@ -14,7 +14,7 @@ def recherche(s: str, c: str) -> None:
     """ Recherche si un caratère c est présente dans une chaine
     de caractères s et affiche les positions du caractère dans la
     chaîne.
-    s str
+    s: str
     c: str
     """
     l = []

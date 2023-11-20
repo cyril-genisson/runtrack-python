@@ -28,7 +28,6 @@ def menu() -> None:
 
 
 opt = '0'
-
 while opt != '4':
     menu()
     rep=input("Votre option: ")
@@ -37,7 +36,10 @@ while opt != '4':
             print(f"{nom[0]: ^5}|{nom[1]: ^20}|{nom[2]: ^10}|{nom[3]: ^10}|")
             print(f"{'-'*49}")
             for k in range(len(inventory)):
-                print(f"{inventory[k]['id']: ^5}|{inventory[k]['n']: ^20}|{'{:.2f}'.format(inventory[k]['p']): ^10}|{inventory[k]['q']: ^10}|")
+                print(f"{inventory[k]['id']: ^5}|
+                      {inventory[k]['n']: ^20}|
+                      {'{:.2f}'.format(inventory[k]['p']): ^10}|
+                      {inventory[k]['q']: ^10}|")
             print()
         case '2':
             id_produit = int(input("Id du produit: "))
@@ -62,5 +64,6 @@ while opt != '4':
             print("Fin du programme")
             break
         case _:
+            print("Réponse non reconnue")
             continue
 
