@@ -11,10 +11,10 @@ certains éléments de l'énoncé dans le *Job10*:
 - je ne sais pas quand le client ajoute la somme à son capital
 et quand il l'a retire: j'ai donc dû supposé qu'il le faisait
 à la date anniversaire du placement et que le taux varié à ce
-mament là;
+moment là;
 - je ne sais pas si le rédacteur du sujet pensait à des
 augmentations et des réductions de taux sous forme de pts
-ou de pourcentage réel: j'ai donc supposé qu'il avais commis une
+ou de pourcentage réel: j'ai donc supposé qu'il avait commis une
 erreur mathématique courante et qu'il parlait de pts.
 
 
