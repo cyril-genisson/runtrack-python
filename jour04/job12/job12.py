@@ -84,3 +84,10 @@ def quicksort(l:list, start=None, end=None) -> list:
 
     return l
 
+
+# Pour les tests uniquement
+# Génération d'une liste aléatoire d'un million d'entiers
+from random import randint
+
+L = [ randint(1, 1000000) for k in range(1000000)]
+print(f"Vérification que mon algo quicksort tri bien la liste: {sorted(L) == quicksort(L)}")
